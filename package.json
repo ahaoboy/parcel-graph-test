@@ -1,0 +1,21 @@
+{
+  "name": "vitest-test",
+  "private": true,
+  "main": "index.js",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "test": "vitest",
+    "test:ui": "vitest --ui",
+    "test:run": "vitest run"
+  },
+  "devDependencies": {
+    "@vitest/ui": "latest",
+    "typescript": "^4.6.4",
+    "vite": "latest",
+    "vitest": "latest"
+  },
+  "dependencies": {
+    "@parcel/graph": "^2.5.0"
+  }
+}
